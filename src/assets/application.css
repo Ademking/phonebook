@@ -1,0 +1,256 @@
+@font-face {
+    fx-font-family: Montserrat;
+    font-weight: 100.0;
+    src: url('MontserratThin.ttf');
+}
+
+@font-face {
+    fx-font-family: Montserrat;
+    font-weight: 300.0;
+    src: url('MontserratLight.ttf');
+}
+
+@font-face {
+    fx-font-family: Montserrat;
+    font-weight: 400.0;
+    src: url('MontserratRegular.ttf');
+}
+
+@font-face {
+    fx-font-family: Montserrat;
+    font-weight: 700.0;
+    src: url('MontserratBold.ttf');
+}
+
+@font-face {
+    fx-font-family: Montserrat;
+    font-weight: 900.0;
+    src: url('MontserratBlack.ttf');
+}
+
+
+
+
+.home {
+	-fx-background-color: #FFFFFF;
+}
+
+.sidebar {
+	-fx-background-image: url('cover.png');
+	-fx-background-size: contain;
+	-fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.1), 15.0, 0.0, 0.0, 0.0);
+}
+
+.title {
+	-fx-font-family: Montserrat;
+	-fx-font-size: 20.0pt;
+	-fx-font-weight: 300;
+}
+
+.white {
+	-fx-text-fill: white;
+}
+
+.montserrat{
+	-fx-font-family: Montserrat;
+}
+
+.regular{
+	-fx-font-weight: 300;
+}
+
+.bold {
+	-fx-font-weight: 900;
+}
+
+.h1 {
+	-fx-font-size: 20.0pt;
+}
+
+.h2 {
+	-fx-font-size: 17.0pt;
+}
+
+.h3 {
+	-fx-font-size: 15.0pt;
+}
+
+.h4 {
+	-fx-font-size: 12.0pt;
+}
+
+.h5 {
+	-fx-font-size: 10.0pt;
+}
+
+.h6 {
+	-fx-font-size: 8.0pt;
+}
+
+.cursor {
+	-fx-cursor: hand ;
+}
+.sidebar_home{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 50px;
+	-fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.1), 15.0, 0.0, 0.0, 0.0);
+}
+
+.homebtn {
+	-fx-background-image: url('home.png');
+	-fx-background-size: contain;
+	-fx-effect: dropshadow(three-pass-box, rgba(0.0,0.0,0.0,0.1), 15.0, 0.0, 0.0, 0.0);
+}
+
+/* Primary btn start */
+.primaryBtn{
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+	-fx-padding: 8.0 15.0 15.0 15.0;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 0.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #1359a3 0.0%, #123290 100.0%),
+        #26249d,
+        #3a64d8,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #3a52d8, #2c3bc5);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    
+    
+}
+
+.primaryBtn:hover{
+	-fx-text-fill: white;
+	-fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #1335a3 0.0%, #121f90 100.0%),
+        #242a9d,
+        #3a3dd8,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #4b50ea, #2c2cc5);
+}
+
+.primaryBtn:pressed {
+	-fx-text-fill: white;
+    -fx-padding: 10.0 15.0 13.0 15.0;
+    -fx-background-insets: 2.0 0.0 0.0 0.0,2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+}
+/* Primary btn end */
+
+
+/* danger btn start */
+.dangerBtn{
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+	-fx-padding: 8.0 15.0 15.0 15.0;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 0.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a31313 0.0%, #901212 100.0%),
+        #9d2424,
+        #d83a3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #d83a3a, #c52c2c);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    
+    
+}
+
+.dangerBtn:hover{
+	-fx-text-fill: white;
+	-fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a31313 0.0%, #901212 100.0%),
+        #9d2424,
+        #d83a3a,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #ea4b4b, #c52c2c);
+}
+
+.dangerBtn:pressed {
+	-fx-text-fill: white;
+    -fx-padding: 10.0 15.0 13.0 15.0;
+    -fx-background-insets: 2.0 0.0 0.0 0.0,2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+}
+/* danger btn end */
+
+
+/* Success btn start */
+.successBtn{
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+	-fx-padding: 8.0 15.0 15.0 15.0;
+    -fx-background-insets: 0.0,0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+    -fx-background-radius: 0.0;
+    -fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #13a33c 0.0%, #129038 100.0%),
+        #249d42,
+        #3ad85f,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #3ad84a, #2cc548);
+    -fx-effect: dropshadow( gaussian , rgba(0.0,0.0,0.0,0.75) , 4.0,0.0,0.0,1.0 );
+    
+    
+}
+
+.successBtn:hover{
+	-fx-text-fill: white;
+	-fx-background-color: 
+        linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #18a313 0.0%, #189012 100.0%),
+        #2c9d24,
+        #3ad842,
+        radial-gradient(center 50.0% 50.0%, radius 100.0%, #4bea4b, #34c52c);
+}
+
+.successBtn:pressed {
+	-fx-text-fill: white;
+    -fx-padding: 10.0 15.0 13.0 15.0;
+    -fx-background-insets: 2.0 0.0 0.0 0.0,2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+}
+/* Success btn end */
+
+
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0 ;
+    -fx-background-radius: 0.0 ;
+    
+   -fx-border-color: grey;
+   -fx-border-width: 1.0;
+   -fx-border-radius: 1.0; 
+    
+}
+.text-field:focused {
+	-fx-border-color: #001D7B;
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+.text-area .content{
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0 ;
+    -fx-background-radius: 0.0 ;
+    
+   -fx-border-color: black;
+   -fx-border-width: 0.3;
+   -fx-border-radius: 1.0; 
+    
+}
+.text-area:focused {
+	-fx-border-color: #001D7B;
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+
+
+.scroll-pane:focused,
+.split-pane:focused,
+.list-view:focused,
+.tree-view:focused,
+.table-view:focused,
+.tree-table-view:focused,
+.html-editor:focused {
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1;
+}
+
+.tooltip {
+    -fx-show-delay: 0ms;
+    -fx-show-duration: 10s ;
+}
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="179.0" prefWidth="341.0" stylesheets="@../assets/application.css" xmlns="http://javafx.com/javafx/8.0.251" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.signupController">
+   <children>
+      <TextField fx:id="username" layoutX="136.0" layoutY="31.0" prefHeight="27.0" prefWidth="192.0" />
+      <Text layoutX="25.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="25.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="25.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password" />
+      <Button fx:id="signupbtn" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#signupClick" prefHeight="46.0" prefWidth="354.0" styleClass="successBtn" text="Sign Up" />
+      <PasswordField fx:id="password" layoutX="136.0" layoutY="62.0" prefHeight="27.0" prefWidth="192.0" />
+      <PasswordField fx:id="confirmpass" layoutX="136.0" layoutY="93.0" prefHeight="27.0" prefWidth="192.0" />
+   </children>
+</AnchorPane>
